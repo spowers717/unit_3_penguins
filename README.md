@@ -1,9 +1,9 @@
-### MSCI 758 Marine Data Science with R
+### MSCI 709 Marine Data Science with R
 ### Unit 3: Penguins
 
-Course GitHub site: https://github.com/MSCI-758
+Course GitHub site: https://github.com/MSCI-709
 
-Unit 3 GitHub repository: https://github.com/MSCI-758/unit_3_penguins
+Unit 3 GitHub repository: https://github.com/MSCI-709/unit_3_penguins
 
 This unit will cover data manipulation and visualization using the `Tidyverse` suite of packages in R. We'll also explore basic statistical analyses like t-tests, correlations and linear models.
 
@@ -11,13 +11,17 @@ This unit will cover data manipulation and visualization using the `Tidyverse` s
 
 #### Homework: 
 
--  HW_4_t-tests - Assigned: 2/22/2022, Due: 3/1/2022
+-  hw_4_t-tests - Assigned: 2/16/2023, Due: 2/23/2023
 
-HW4 repo link: https://classroom.github.com/a/IfdMgCHo
+HW4 repo link: TBD
 
--  Final project proposal - Assigned 3/1/2022, Due: 3/22/2022
+-  Final project proposal - Assigned 2/23/2023, Due: 3/16/2023
 
-Final project repo link: https://classroom.github.com/a/Yecjwuvi
+Final project repo link: TBD
+
+-  hw_5_penguin_taxidermy - Assigned: 2/28/2023, Due: 3/14/2023
+
+HW5 repo link: TBD
 
 ***
 
