@@ -85,6 +85,24 @@ glimpse(lm_3_predict)
 
 
 
+# generate new data pt 2
+
+newdata = penguins_lm_3 %>%
+  tidyr::expand(bill_length_mm, species)
+head(newdata)
+
+lm_3_predict = lm_3 %>%
+  broom::augment(newdata = newdata, se_fit= TRUE, interval= "confidence")
+head(lm_3_predict)
+
+# visualize 
+ggplot() +
+  geom_point(data = penguins_lm_3, aes(x=bill_length_mm, y=bill_depth_mm, color=species)) +
+  geom_ribbon(data=newdata_predict_lm_3, aes(ymin=lwr, ymax=upr, x=bill_length_mm, fill = species), alpha=0.5) +
+  geom_line(data = newdata_predict_lm_3, aes(y=fit, x=bill_length_mm, color=species))
+
+
+
 
 
 
